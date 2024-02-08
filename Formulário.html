@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <a href="./INDEX.HTML">Home</a> <br>
+
+    <h1> Formulário</h1> <br>
+
+    <form>
+        <label for="Nome01"> Nome completo </label>
+        <input id="Nome01" type="text" required="true" placeholder="Nome completo"/> <br>
+
+        <label for="Email01"> Seu e-mail </label>
+        <input id="Email01" type="email" required="true" placeholder="Seu e-mail"/> <br>
+
+        <label for="Idade01"> Sua Idade </label>
+        <input id="idade01" type="number" required="true" placeholder="Sua idade" max="75" min="18">  <br>
+
+        <label> seu comprovante aqui </label> <input type="file"> <br>
+
+        <input id="Termos01" type="checkbox"> 
+        <label for="Termos01"> Aceito os termos </label> <br>
+
+        <p> Qual sua preferênca para trabalho? </p>
+        <input type="radio" name="Preferência para trabalho" id="Home-Office"/> <label for="Home-Office"> Home-Office </label>
+        <input type="radio" name="Preferência para trabalho" id="Presencial"/> <label for="Presencial"> Presencial </label>
+        <input type="radio" name="Preferência para trabalho" id="Híbrido"/> <label for="Híbrido"> Híbrido </label> <br> <br>
+
+
+        <label> Qual turno é sua preferência? </label>
+        <select>
+            <option> Manhã </option>
+            <option> Tarde </option>
+            <option> Noite </option>
+            <option> Madrugada </option>
+        </select> <br> 
+
+        <p> Qual turno é sua preferência? </p>
+        <input type="radio" id="Manhã"/> <label for="Manhã"> Manhã </label>
+        <input type="radio" id="Tarde"/> <label for="Tarde"> Tarde </label>
+        <input type="radio" id="Noite"/> <label for="Noite"> Noite </label>
+        <input type="radio" id="Madrugada"/> <label for="Madrugada"> Madrugada </label> <br> <br>
+
+        <label> O que você achou do formulário? </label> <br> <textarea placeholder="Digite aqui"></textarea> <br> <br>
+
+        <button type="submit"> Enviar </button>
+        <button type="reset"> Reset </button>
+
+    </form>
+</body>
+</html>
