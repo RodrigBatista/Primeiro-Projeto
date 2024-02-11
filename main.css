@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    
+    color: black
+}
+
+h1 {color: purple;}
+
+h2 {color: blueviolet;}
+
+#Sports h2 {color: aqua;}
+
+.creation-date {color: red;}
+
+h1:hover {color: gold;}
+
+header li {display: inline;}
+
+
+

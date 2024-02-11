@@ -1,0 +1,12 @@
+Lista de observações / informações importamtes para o curso que estou fazendo da Ebac Full stack Python.
+
+1- No arquivo Main.css 
+Comando:
+
+header li {display: inline;}
+Explicação:
+none = não exibir
+block = exibir um acima do outro
+inline = na mesma linha
+
+2- 
