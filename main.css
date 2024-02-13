@@ -3,8 +3,26 @@
     margin: 0; padding: 0;
 }
 
+#Sports {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+#Sports .articles article a {
+    background-color: rgba(0, 255, 0, 0.6);
+    color: black;
+}
+
+#Economy {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+#Economy .articles article a {
+    background-color: rgba(0, 0, 255, 0.6);
+    color: black;
+}
+
 body > header {
-    background-color: #737e8f;
+    background-color: #272b31;
     padding: 16px 0;
     color: #fff;
 }
@@ -15,27 +33,36 @@ header .container{
     justify-content: space-between;
 }
 
-h1 {color: purple;}
+.container a:hover {
+    color: gray;
+}
 
-h1:hover {color: gold;}
+h1 {color: white;}
 
-h2 {color: blueviolet;}
+h2 {color: rgb(85, 83, 204);}
 
-#Sports h2 {color: aqua;}
+#Sports h2 {color: rgb(26, 117, 38);}
 
-.creation-date {color: red;}
-
-header li {display: inline;}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+}
 
 header li a {
     color: #fff;
+    text-decoration: none;
 }
 
 .container {width: 1024px; margin: 0px auto;}
 
 .articles {display: flex; flex-wrap: wrap; justify-content: space-between;}
 
-.articles article img {height: 180px;}
+.articles article img {
+    height: 180px;
+    width: 100%;
+}
 
 .articles article {width: 30%;}
 
@@ -60,10 +87,41 @@ section h2, .articles article {
 }
 
 .articles article a {
-    background-color: blue;
-    color: #fff;
     padding: 8px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
 }
 
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.Home {
+    color: white; text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Home:hover {
+    color: gray;
+}
+
+.espaço {
+    margin-top: 26px;
+    /* -O ler mais do "noite do superbowl" e do "noticias sobre a NBA" estão desalinhados do "grande clássico na noite de hoje" estou buscando um jeito de resolver essa questão.
+    -Está em conflito com o ".articles article a" se eu excluir a linha lá do "margin-top: 8px;" esse meu comando é respeitado*/
+}
 
