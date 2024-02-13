@@ -3,6 +3,18 @@
     margin: 0; padding: 0;
 }
 
+body > header {
+    background-color: #737e8f;
+    padding: 16px 0;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 h1 {color: purple;}
 
 h1:hover {color: gold;}
@@ -14,6 +26,10 @@ h2 {color: blueviolet;}
 .creation-date {color: red;}
 
 header li {display: inline;}
+
+header li a {
+    color: #fff;
+}
 
 .container {width: 1024px; margin: 0px auto;}
 
@@ -29,5 +45,25 @@ header li {display: inline;}
     position: fixed; bottom: 0; right: 0;
     background-color: black;
     padding: 3px;
-
 }
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px; margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+}
+
+
