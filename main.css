@@ -3,23 +3,29 @@
     margin: 0; padding: 0;
 }
 
-#Sports {
-    background-color: rgba(0, 255, 0, 0.2);
-}
+#Sports {background-color: rgba(0, 255, 0, 0.2);}
 
 #Sports .articles article a {
-    background-color: rgba(0, 255, 0, 0.6);
-    color: black;
-}
+background-color: rgba(0, 255, 0, 0.6);
+    color: black;}
 
-#Economy {
-    background-color: rgba(0, 0, 255, 0.2);
-}
+#Economy {background-color: rgba(0, 0, 255, 0.2);}
 
 #Economy .articles article a {
     background-color: rgba(0, 0, 255, 0.6);
-    color: black;
-}
+    color: black;}
+
+#Entretenimento {background-color: rgba(255, 0, 0, 0.2);}
+
+#Entretenimento .articles article a {
+background-color: rgba(255, 0, 0, 0.6);
+color: black;}
+
+#Tecnologia {background-color: rgba(0, 255, 255, 0.2);}
+
+#Tecnologia .articles article a {
+    background-color: rgba(0, 255, 255, 0.6);
+    color: black;}
 
 body > header {
     background-color: #272b31;
@@ -39,9 +45,13 @@ header .container{
 
 h1 {color: white;}
 
-h2 {color: rgb(85, 83, 204);}
+#Economy h2 {color: rgb(85, 85, 200);}
+
+#Entretenimento h2 {color: rgb(233, 75, 75);}
 
 #Sports h2 {color: rgb(26, 117, 38);}
+
+#Tecnologia h2 {color: rgb(44, 130, 151);}
 
 header li {
     display: inline;
