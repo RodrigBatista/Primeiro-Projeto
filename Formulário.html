@@ -11,6 +11,7 @@
     <h1> Formulário</h1> <br>
 
     <form>
+        <fieldset>
         <label for="Nome01"> Nome completo </label>
         <input id="Nome01" type="text" required="true" placeholder="Nome completo"/> <br>
 
@@ -23,7 +24,7 @@
         <label> seu comprovante aqui </label> <input type="file"> <br>
 
         <input id="Termos01" type="checkbox"> 
-        <label for="Termos01"> Aceito os termos </label> <br>
+        <label for="Termos01"> Aceito os termos </label> </fieldset> <br>
 
         <p> Qual sua preferênca para trabalho? </p>
         <input type="radio" name="Preferência para trabalho" id="Home-Office"/> <label for="Home-Office"> Home-Office </label>
@@ -33,6 +34,7 @@
 
         <label> Qual turno é sua preferência? </label>
         <select>
+            <option selected disabled value="">Selecione</option>
             <option> Manhã </option>
             <option> Tarde </option>
             <option> Noite </option>

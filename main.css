@@ -5,13 +5,13 @@
 
 h1 {color: purple;}
 
+h1:hover {color: gold;}
+
 h2 {color: blueviolet;}
 
 #Sports h2 {color: aqua;}
 
 .creation-date {color: red;}
-
-h1:hover {color: gold;}
 
 header li {display: inline;}
 
@@ -22,3 +22,12 @@ header li {display: inline;}
 .articles article img {height: 180px;}
 
 .articles article {width: 30%;}
+
+.botao img {
+    margin: 15px;
+    height: 40px;
+    position: fixed; bottom: 0; right: 0;
+    background-color: black;
+    padding: 3px;
+
+}
