@@ -49,7 +49,7 @@ h1 {color: white;}
 
 #Entretenimento h2 {color: rgb(233, 75, 75);}
 
-#Sports h2 {color: rgb(26, 117, 38);}
+#Sports h2 {color: rgb(26, 117, 38); margin-left: 450px; border: 2px; border-color: rgb(26, 117, 38); border-style: solid; padding: 5px; display: inline-block;}
 
 #Tecnologia h2 {color: rgb(44, 130, 151);}
 
