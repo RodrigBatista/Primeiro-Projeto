@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Shop</title>
+    <title>Games World</title>
     <link rel="stylesheet" href="./GameShop.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,14 +16,14 @@
 <body>
     <header>
             <div class="container">
-            <h1>Games Shop</h1>
+            <h1>Games World</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#"> Sobre a loja</a>
+                        <a href="#about"> Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#"> Contato </a>
+                        <a href="#contact"> Contato </a>
                     </li>
                 </ul>
             </nav>
@@ -32,13 +32,14 @@
 
 
 
-    <section>
+    <section id="about">
         <div class="container">
-            <img class="store-front" src="./imagens/loja.jpg" alt="Fachada da Loja Games Shop">
+            <img class="store-front" src="./Midias/games.jpg" alt="Fachada da Loja Games World">
             <div>
                 <h2> Sobre a loja</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel saepe itaque cum vitae commodi, aut atque architecto omnis dolorum corrupti hic harum incidunt accusamus! Veritatis delectus molestiae reiciendis beatae perferendis. </p>
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis rerum consequatur neque cumque numquam ut officiis, dolorem dignissimos aliquid! Nihil labore quas, unde laboriosam minima doloribus illum quibusdam! Accusantium, maiores!</p>
+                <p> Bem-vindo à Games World - O Paraíso dos Gamers! </p>
+                <p> Na Games World, acreditamos que os jogos são mais do que apenas entretenimento; são portais para aventuras emocionantes, desafios instigantes e comunidades vibrantes. Nossa missão é proporcionar a você a melhor experiência de compra de games, oferecendo uma seleção cuidadosamente curada dos títulos mais empolgantes e inovadores do mundo dos jogos.</p>
+                <p> Junte-se a nós e transforme cada jogo em uma jornada inesquecível. Bem-vindo à Games World - onde a diversão vai além da tela.</p>
                 <ul class="brands-list">
                     <li> <img src="./imagens/nintendo.png" alt="Logo nintendo"></li>
                     <li> <img src="./imagens/xbox.png" alt="Logo Xbox"></li>
@@ -48,5 +49,53 @@
         </div>
     </section>
 
+
+
+    <section id="contact">
+        <div class="container">
+            <h2> Contanto </h2>
+            <div class="contact-methods">
+                <div>
+                    <h3> Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu e-mail" required/>
+                        <input type="tel" placeholder="Seu telefone (opcional)"/>
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3> Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./imagens/instagram.png" alt="Logo do Instagram" /> </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./imagens/facebook.png" alt="Logo do Facebook" /> </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no YouTube">
+                                <img src="./imagens/youtube.png" alt="Logo do YouTube" /> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3> Venha até nós</h3>
+                    <p> Rua JavaScript nº 123, Vila HTML - São Paulo - SP </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <p> &copy; Games World - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
 </body>
 </html>
