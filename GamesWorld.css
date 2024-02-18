@@ -112,6 +112,10 @@ header .container, section .container {
         justify-content: space-between;
     }
 
+    .contact-methods input {
+        border-style: solid;
+    }
+
     form input, form textarea, form button {
         display: block;
         width: 320px;
