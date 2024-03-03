@@ -88,6 +88,7 @@ header .container, section .container {
         margin-right: 32px;
         width: 600px;
         height: 400px;
+        z-index: 1; /* Garante que a imagem grande esteja atrás da imagem pequena */
     }
     
     .social-links img {
@@ -155,4 +156,19 @@ header .container, section .container {
 
     footer p {
         text-align: center;
+    }
+
+    .image2 {
+        position: relative;
+        display: inline-block;
+    }
+
+    .small-image {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        width: 18%; /* Ajuste conforme necessário */
+        height: auto;
+        cursor: pointer;
+        z-index: 2; /* Garante que a imagem pequena esteja sobreposta à imagem grande */
     }
