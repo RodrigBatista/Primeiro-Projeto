@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronteira</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ccd0db;
+            border: solid;
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            margin-bottom: 300px;
+        }
+
+            H1 {
+                background-color: #8695bd;
+                padding: 16px 0;
+                margin-bottom: 8px;
+            }
+
+    </style>
+</head>
+<body> <div class="container">
+    <h1>Sistema de imigração</h1>
+    País de nascimento: <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Ok" onclick="nacionalidade()">
+    <div id="res"></div>
+    </div>
+    
+
+    <script>
+        function nacionalidade() {
+            var txtn = document.querySelector('#txtnac')
+            var res = document.querySelector('#res')
+            var nac = (txtn.value)
+            res.innerHTML = `<p>Seja bem-vindo ao sistema imigratório!</p> <p>Seu país é o(a) <strong>${nac}</strong></p>`
+            if (nac == 'Brasil') {
+                res.innerHTML += `<p>Você está <strong>autorizado!</strong></p>`
+                } else {
+                res.innerHTML += `<p>Você <strong>não está autorizado!</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>
