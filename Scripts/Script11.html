@@ -49,7 +49,11 @@
             res.innerHTML = `<p>Seja bem-vindo ao sistema imigratório!</p> <p>Seu país é o(a) <strong>${nac}</strong></p>`
             if (nac == 'Brasil') {
                 res.innerHTML += `<p>Você está <strong>autorizado!</strong></p>`
-                } else {
+            } else if (nac == 'Itália') {
+                res.innerHTML += `<p>Você <strong> está autorizado!</strong> porém, por um período de 30 dias.</p>`
+            } else if (nac == 'Canadá' || nac == 'Portugal') {
+                res.innerHTML += `<p>Você <strong> está autorizado!</strong> porém, por um período de 15 dias.</p>`
+            } else {
                 res.innerHTML += `<p>Você <strong>não está autorizado!</strong></p>`
             }
         }
