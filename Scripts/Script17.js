@@ -10,7 +10,7 @@ var res = parimpar(8)
 console.log(res) 
 */
 
-function soma(n1=0, n2=0) { //Se a soma solicitada no console.log for de apenas um número, o outro será considerado 0 ou seja, nesse exemplo está 8 + 0 = 8
+function soma(n1=0, n2=0) { //Se a soma solicitada no console.log for de apenas um número, o outro será considerado 0.
     return n1 + n2
 }
-console.log(soma(8))
+console.log(soma(10, 9))
