@@ -7,7 +7,16 @@
     <style>
         body {
             font: normal 18pt Arial;
-            background-color: rgb(72, 95, 95);
+            background-color: #a5a5a5;
+        }
+
+        H1, #container {
+            align-items: center;
+            text-align: center;
+        }
+
+        H1 {
+            margin-top: 70px;
         }
 
         input {
@@ -24,21 +33,23 @@
         #block {
             display: inline-block;
             margin-right: 100px;
+            margin-top: 20px;
         }
 
     </style>
 </head>
 <body>
-    <h1>Calculadora</h1>
+    <h1>CALCULADORA</h1>
 
+    <div id="container">
     <div id="block">
-    <h2>Soma</h2>
+    <h2>SOMA</h2>
     <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
 
-    <h2>Subtração</h2>
+    <h2>SUBTRAÇÃO</h2>
     <input type="number" name="txtn3" id="txtn3"> -
     <input type="number" name="txtn4" id="txtn4">
     <input type="button" value="Subtração" onclick="subtração()">
@@ -46,17 +57,18 @@
     </div>
 
     <div id="block">
-    <h2>Multiplicação</h2>
+    <h2>MUTIPLICAÇÃO</h2>
     <input type="number" name="txtn5" id="txtn5"> *
     <input type="number" name="txtn6" id="txtn6">
     <input type="button" value="Multiplicação" onclick="multiplicação()">
     <div id="resss">Resultado</div>
 
-    <h2>Divisão</h2>
+    <h2>DIVISÃO</h2>
     <input type="number" name="txtn7" id="txtn7"> /
     <input type="number" name="txtn8" id="txtn8">
     <input type="button" value="Divisão" onclick="divisão()">
     <div id="ressss">Resultado</div>
+    </div>
     </div>
 
 
