@@ -50,7 +50,7 @@ button {
 
 ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Propriedade do CSS utilizada para controlar o comportamento de quebra de linhas em um layout flexível criado com CSS Flexbox. Ela define se os itens flexíveis dentro de um container devem ser dispostos em uma única linha ou se podem quebrar para formar várias linhas */
 }
 
 ul li {
@@ -58,7 +58,7 @@ ul li {
     list-style: none;
     position: relative;
     max-height: 210px;
-    overflow-y: hidden;
+    overflow-y: hidden; /* Propriedade do CSS usada para controlar o comportamento de exibição do conteúdo que excede as dimensões do elemento. Ela determina se o conteúdo deve ser cortado, exibido com barras de rolagem ou se deve ocorrer algum outro tipo de tratamento. O valor hidden é utilizado quando queremos esconder a parte de um elemento para que ele não passe do tamanho determinado. Geralmente é utilizado junto das propriedades width e height. */
 }
 
 ul li img {
@@ -72,7 +72,7 @@ ul li img {
     bottom: 0;
     left: 0;
     width: 100%;
-    opacity: 0;
+    opacity: 0; /* É uma propriedade CSS que permite controlar a transparência de um elemento. Ela define o nível de opacidade de um elemento, variando de 0 (totalmente transparente) a 1 (totalmente opaco). Ela afeta tanto o elemento em si quanto seus elementos filhos. */
     transition: all ease .5s; /*.5 significa que o tempo da transição é de 0.5 segundos */
 }
 
@@ -82,5 +82,5 @@ ul li img {
 }
 
 ul li:hover .overlay-imagem-link {
-    opacity: 1;
-}
+    opacity: 1; /*Com essa propriedade do CSS, você pode fazer com que o elemento pareça mais transparente, revelando o conteúdo por trás dele ou criando efeitos de transição suave.*/
+} 
